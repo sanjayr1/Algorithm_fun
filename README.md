@@ -18,4 +18,7 @@
  - Reverse nearest neighbor graph of indiividuals and their movie rankings
 
 # Program 4
--
+- Given two Wikipedia pages, a link chain is a list of Wikipedia links that one can follow to get from a start page to a target page, such that each page in the chain is arrived at by following a link in the previous page. 
+  - Use Priority Queues to find short link chains from a start page `S` to a target page `T`
+  - Compute `priority` of a wiki page based on by exploring the number of shared links between a given page `P` and the target page `T` 
+  - Build a priority queue of partial link chains with max heaps, repeatedly remove the highest priority partial chian, get set of links in its current page, compare to target page. If all links in current page and target page match, then you've found the target.
