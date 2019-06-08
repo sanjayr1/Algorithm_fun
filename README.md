@@ -5,7 +5,14 @@
 
 
 # Program 2
--
+- Small World Phenomenon: Experimentally verify if this property holds on a subset of Facebook data
+- Given datasets of nodes and edges representing an undirected graph:
+  - Implement a queue class
+  - Create a loadGraph() function to represent the nodes and edges as an adjacency list
+  - Implement the Breadth-First-Search algorithm that returns a dictionary that maps each node in the graph to tje distance from the starting node `s`
+  - Compute the distribution of distances in the graph, mapping distance to frequency of occurence
+  - Compute diameter, mode, and median of distances of the graph
+  - Estimate how long it would take to compute the diametere of a Facebook graqph consisting of 2 million nodes and 44 million edges on the same computer
 
 # Program 3
 - Divide and Conquer algorithm to locate the supermode element of a list
