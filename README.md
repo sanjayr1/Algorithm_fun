@@ -1,6 +1,6 @@
 # Algorithms for data science
 
-# TLDR: Check out Program 4 for the most fun
+### If you're just passing through, be sure to check out Program 4 for the most fun
 
 # Program 1
 - Implement efficeint algorithms to compute and plot the indegree distributuion of the nodes in a digraph -- explore scientific papers and associated citations to see if cited papers are chosen according to a probabilistic model (popularity begets more popularity) or whether the choices reflect a deep understanding of the papers cited. 
